@@ -10,7 +10,7 @@ moved to malformed folder. On successfull transaction file will be moved to arch
 Usage:
 
 1. Download elasticsearch
-2. open cmd goto elasticsearch/bin search elasticsearch.bat and run wait for starting the server
+2. open cmd goto elasticsearch/bin search elasticsearch.bat and run , wait for starting the server
 3. open chrome add Elasticsearch Head for visualizing data.
 4. open cmd run py main.py (for main.py clone the git repository)
 5. open another cmd run createDataSetForTesting.py (this will create a new file and our eventlistener will get trigger and data will be stored in elasticache)
