@@ -1,6 +1,6 @@
 Elasticsearch poc:-
 
-This is very basic elasticsearch poc,on running main.py two folers named as archive and malformed created. If any file being added inside
+This is very basic elasticsearch poc,on running main.py two folders named as archive and malformed created. If any file being added inside
 the folder where main.py is running, it reads the file and if data is json then try to push the data on elasticsearch server. The data being 
 send is in chunks, if in between this process non-parsable(malformed) json arrives, then all the data will be roll-backed and the file will be
 moved to malformed folder. On successfull transaction file will be moved to archive folder.
